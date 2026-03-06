@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+div.flex-conteneur {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body div.conteneur {
+    margin: 20px auto 0 auto;
+}
+
+div {
+    margin: 0 auto;
+    padding: 10px;
+
+    height:fit-content;
+    width: fit-content;
+
+}
+
+div.niveau-1 {
+    background-color: blueviolet;
+}
+
+div.niveau-2 {
+    background-color: cadetblue;
+}
+
+div.niveau-3 {
+    background-color: antiquewhite;
+}
+
+div.niveau-3 p {
+    display: inline-block;
+    margin: 0;
+    width: 100px;
+    height: fit-content;
+    padding: 5px;
+
+    text-align: center;
+}
+
+.bleu
+{
+    background-color: blue;
+}
+
+.blanc
+{
+    background-color: white;
+}
+
+.rouge {
+    background-color: red;
+}
+
+.bleu, .rouge {
+    color: white;
+}
+
+.bleu, .blanc, .rouge {
+    text-transform: uppercase;
+}
+
+
+div.niveau-3 div.niveau-1 {
+    background-color: pink;
+}
+
+div.niveau-3 div.niveau-2 {
+    background-color: darksalmon;
+}
+
+div.niveau-3 div.niveau-3 {
+    background-color: chartreuse;
+}
